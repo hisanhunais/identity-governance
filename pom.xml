@@ -209,7 +209,7 @@
                 <version>${apache.felix.scr.ds.annotations.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.wso2.eclipse.osgi</groupId>
+                <groupId>org.eclipse.platform</groupId>
                 <artifactId>org.eclipse.osgi.services</artifactId>
                 <version>${equinox.osgi.services.version}</version>
             </dependency>
@@ -624,9 +624,9 @@
         <commons-io.wso2.version>2.4.0.wso2v1</commons-io.wso2.version>
         <commons.io.wso2.osgi.version.range>[2.4.0,3.0.0)</commons.io.wso2.osgi.version.range>
         <commons-logging.osgi.version.range>[1.2.0,2.0.0)</commons-logging.osgi.version.range>
-        <imp.pkg.version.javax.servlet>[2.6.0, 3.0.0)</imp.pkg.version.javax.servlet>
+        <imp.pkg.version.javax.servlet>[2.6.0, 5.0.0)</imp.pkg.version.javax.servlet>
         <apache.felix.scr.ds.annotations.version>1.2.4</apache.felix.scr.ds.annotations.version>
-        <equinox.osgi.services.version>3.5.100.v20160504-1419</equinox.osgi.services.version>
+        <equinox.osgi.services.version>3.12.0</equinox.osgi.services.version>
         <commons-collections.version>3.2.2.wso2v1</commons-collections.version>
         <commons-collections.wso2.osgi.version.range>[3.2.0,4.0.0)</commons-collections.wso2.osgi.version.range>
         <identity.data.publisher.authentication.version>5.3.27</identity.data.publisher.authentication.version>
@@ -639,7 +639,7 @@
         <carbon.kernel.registry.imp.pkg.version.range>[1.0.1, 2.0.0)</carbon.kernel.registry.imp.pkg.version.range>
 
         <!--Carbon Identity Framework Version-->
-        <carbon.identity.framework.version>5.25.90</carbon.identity.framework.version>
+        <carbon.identity.framework.version>5.25.707-SNAPSHOT</carbon.identity.framework.version>
         <carbon.identity.framework.imp.pkg.version.range>[5.20.211, 6.0.0)
         </carbon.identity.framework.imp.pkg.version.range>
 
